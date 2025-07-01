@@ -12,7 +12,7 @@ font-family: 'Asap', sans-serif; 98cfd9
 
 body {
     font-family: 'Source Code Pro', monospace;
-	color: #fff;
+	color: #000000;
 	margin: 0;
     background-color: #7b8bb0;
 }
@@ -40,7 +40,13 @@ img {
 	border: 0;
 }
 
-a:link, a:active,a:visited {
+
+#email a:link, #a:active, a:visited, a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:link, a:active, a:visited {
     color: #ddd;
     text-decoration: none;
 }
@@ -62,7 +68,6 @@ footer {
 	left: 0;
 	bottom: 0;
 	font-size: 14px;
-	background-color: #090f33;
 	width: 100%;
 	padding: 15px;
 }
@@ -89,16 +94,28 @@ ul {
 }
 
 .hero {
-    color: #fff;
+    color: #010010;
     text-align: center;
-    margin-bottom: 20px;
-    padding-top: 160px;
+    margin-bottom: 0px;
+    padding-top: 1px;
     padding-bottom: 160px;
     background-color: #090f33;
-    background-image: url("images/bg.png");
+    background-image: url("../images/bg.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.hero h1 {
+  display: inline-block;
+  font-size: 4rem;
+  color: #222;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 0.3em 0.8em;
+  border-radius: 10px;
+  font-weight: 600;
 }
 
 .container {
@@ -210,7 +227,7 @@ ul {
 /* The actual content */
 .tlcontent {
     padding: 20px 30px;
-    background-color:#090f33;
+    background-color:#d3d5e0;
     position: relative;
     border-radius: 6px;
 }

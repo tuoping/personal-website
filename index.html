@@ -10,32 +10,35 @@
 </head>
 <body>
 		<div class="hero">
-			<h1>shanice's portfolio</h1>
-			<h2>take a step into my world</h2>
+			<h1>Ping Tuo</h1>
 		</div>
     	<div class="container">
     <header>
 		<nav>
             <a href="index.html" class="button">homepage</a>
-			<a href="about.html" class="button">about shanice</a>
-            <a href="classes.html" class="button">current classes</a>
-            <a href="resume.html" class="button">resume</a>
-            <a href="projects.html" class="button">personal projects</a>
-            <a href="contact.html" class="button">contact me</a>
+            <a href="projects.html" class="button">research</a>
+            <a href="contact.html" class="button">publication</a>
 		</nav>
     </header>
 		<main role="main">
 			<p align="center">Hello world! I'm Shanice. I'm a current LaGuardia Student studying Game Development. I intend to graduate in June 2019 and continue to study Computer Science and Game Development in a four-year college in NYC. You're welcome to follow my coding journey on other social media platforms such as LinkedIn, WordPress, Github and Vimeo.</p>
 		</main>
+		<main role="main">
+            <h3>Get in Touch</h3>
+			<p align="center">You can reach me at <span id="email"></span> if needed!</p>
+		</main>
+		<script>
+		const user = "tuoping";
+		const domain = "berkeley.edu";
+		document.getElementById("email").innerHTML = `<a href="mailto:${user}@${domain}">${user}@${domain}</a>`;
+		</script>
+
     </div>
 	<footer>
 		<div class="container">
 			<div class="social">
-				<a href="http://www.github.com/shanicesmith98"><img src="images/github.png" height="36" width="36" alt="github logo"></a>
-				<a href="http://www.linkedin.com/in/shanicesmith98/"><img src="images/linkedin.png" height="36" width="36" alt="linkedin logo"></a>
-				<a href="http://www.twitter.com/"><img src="images/twitter.png" height="36" width="36" alt="twitter"></a>
-				<a href="http://www.vimeo.com/user90254394/"><img src="images/vimeo.png" height="36" width="36" alt="vimeo"></a>
-				<a href="http://www.queensdogwalker.wordpress.com/"><img src="images/wordpress.png" height="36" width="36" alt="wordpress"></a>
+				<a href="http://www.github.com/tuoping"><img src="images/github.png" height="36" width="36" alt="github logo"></a>
+				<a href="https://scholar.google.com/citations?user=rnWDdREAAAAJ"><img src="images/Google_Scholar_logo.svg" height="36" width="36" alt="linkedin logo"></a>
 			</div>
 		</div>
 	</footer>
