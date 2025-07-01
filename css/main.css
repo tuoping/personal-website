@@ -89,16 +89,16 @@ ul {
 }
 
 .hero {
-	color: #fff;
-	text-align: center;
-	margin-bottom: 20px;
-	padding-top: 160px;
-	padding-bottom: 160px;
-	background-color: #090f33;
-    background-image: "images/bg.png";
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    background-color: #090f33;
+    background-image: url("images/bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
